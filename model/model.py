@@ -6,6 +6,7 @@ class Model:
         self._graph = nx.Graph()
         self._artists_list = []
         self.load_all_artists()
+        #commint and push di prova
 
     def load_all_artists(self):
         self._artists_list = DAO.get_all_artists()
